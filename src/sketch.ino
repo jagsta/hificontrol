@@ -2,7 +2,7 @@
 #include <IRremote.h>
 
 // IR receives on pin 7
-IRrecv irrecv(7); // Receive on pin 11
+IRrecv irrecv(7); 
 decode_results results;
 int last;
 
